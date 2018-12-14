@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/maksim/Документы/OS-2/fork.h
+string
+-
+semaphore.h
+-
+fstream
+-
+
+/home/maksim/Документы/OS-2/philosopher.cpp
+iostream
+-
+chrono
+-
+thread
+-
+stdio.h
+-
+sys/time.h
+-
+philosopher.h
+/home/maksim/Документы/OS-2/philosopher.h
+fork.h
+/home/maksim/Документы/OS-2/fork.h
+
+/home/maksim/Документы/OS-2/philosopher.h
+string
+-
+fstream
+-
+fork.h
+/home/maksim/Документы/OS-2/fork.h
+

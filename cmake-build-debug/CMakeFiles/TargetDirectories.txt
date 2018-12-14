@@ -1,0 +1,3 @@
+/home/maksim/Документы/OS-2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/maksim/Документы/OS-2/cmake-build-debug/CMakeFiles/OS_2.dir
+/home/maksim/Документы/OS-2/cmake-build-debug/CMakeFiles/edit_cache.dir

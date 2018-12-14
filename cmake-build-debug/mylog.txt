@@ -1,0 +1,372 @@
+Fri, 14.12.2018 12:50:30:169030266   phil1 start live
+Fri, 14.12.2018 12:50:30:169412717   semaphore fork1 acquired
+Fri, 14.12.2018 12:50:30:169685059   phil1 take fork fork1
+Fri, 14.12.2018 12:50:30:169945142   semaphore fork2 acquired
+Fri, 14.12.2018 12:50:30:170194435   phil1 take fork fork2
+Fri, 14.12.2018 12:50:30:170437666   phil1 start eating
+Fri, 14.12.2018 12:50:30:170778689   phil2 start live
+Fri, 14.12.2018 12:50:30:170945229   need to wait for semaphore fork2
+Fri, 14.12.2018 12:50:30:171253367   phil3 start live
+Fri, 14.12.2018 12:50:30:171473410   semaphore fork3 acquired
+Fri, 14.12.2018 12:50:30:171567526   phil3 take fork fork3
+Fri, 14.12.2018 12:50:30:171655193   semaphore fork4 acquired
+Fri, 14.12.2018 12:50:30:171734941   phil3 take fork fork4
+Fri, 14.12.2018 12:50:30:171815046   phil3 start eating
+Fri, 14.12.2018 12:50:30:172860561   phil4 start live
+Fri, 14.12.2018 12:50:30:173004225   need to wait for semaphore fork4
+Fri, 14.12.2018 12:50:30:173509717   phil5 start live
+Fri, 14.12.2018 12:50:30:173640527   semaphore fork5 acquired
+Fri, 14.12.2018 12:50:30:173734415   phil5 take fork fork5
+Fri, 14.12.2018 12:50:30:173775978   need to wait for semaphore fork1
+Fri, 14.12.2018 12:50:30:173810996   phil5 put fork fork5
+Fri, 14.12.2018 12:50:31:170814615   phil1 stop eating
+Fri, 14.12.2018 12:50:31:170982522   phil1 put fork fork2
+Fri, 14.12.2018 12:50:31:171100815   phil1 put fork fork1
+Fri, 14.12.2018 12:50:31:171259199   phil2 take fork fork2
+Fri, 14.12.2018 12:50:31:171410762   need to wait for semaphore fork3
+Fri, 14.12.2018 12:50:31:171531354   phil2 put fork fork2
+Fri, 14.12.2018 12:50:31:171689604   phil1 start thinking
+Fri, 14.12.2018 12:50:32:171792091   semaphore fork2 acquired
+Fri, 14.12.2018 12:50:32:172001911   phil2 take fork fork2
+Fri, 14.12.2018 12:50:32:172148262   need to wait for semaphore fork3
+Fri, 14.12.2018 12:50:32:172273068   phil2 put fork fork2
+Fri, 14.12.2018 12:50:32:172452698   phil1 stop thinking
+Fri, 14.12.2018 12:50:32:172605377   semaphore fork1 acquired
+Fri, 14.12.2018 12:50:32:172779040   phil1 take fork fork1
+Fri, 14.12.2018 12:50:32:172904663   semaphore fork2 acquired
+Fri, 14.12.2018 12:50:32:172993583   phil1 take fork fork2
+Fri, 14.12.2018 12:50:32:173071527   phil1 start eating
+Fri, 14.12.2018 12:50:32:674121288   semaphore fork5 acquired
+Fri, 14.12.2018 12:50:32:674372950   phil5 take fork fork5
+Fri, 14.12.2018 12:50:32:674511640   need to wait for semaphore fork1
+Fri, 14.12.2018 12:50:32:674639780   phil5 put fork fork5
+Fri, 14.12.2018 12:50:33:171977939   phil3 stop eating
+Fri, 14.12.2018 12:50:33:172041658   phil3 put fork fork4
+Fri, 14.12.2018 12:50:33:172081241   phil3 put fork fork3
+Fri, 14.12.2018 12:50:33:172121673   phil3 start thinking
+Fri, 14.12.2018 12:50:33:172179090   phil4 take fork fork4
+Fri, 14.12.2018 12:50:33:172237971   semaphore fork5 acquired
+Fri, 14.12.2018 12:50:33:172278759   phil4 take fork fork5
+Fri, 14.12.2018 12:50:33:172317506   phil4 start eating
+Fri, 14.12.2018 12:50:33:172437493   need to wait for semaphore fork2
+Fri, 14.12.2018 12:50:33:173208888   phil1 stop eating
+Fri, 14.12.2018 12:50:33:173251156   phil1 put fork fork2
+Fri, 14.12.2018 12:50:33:173291593   phil1 put fork fork1
+Fri, 14.12.2018 12:50:33:173329593   phil1 start thinking
+Fri, 14.12.2018 12:50:33:173431927   phil2 take fork fork2
+Fri, 14.12.2018 12:50:33:173479101   semaphore fork3 acquired
+Fri, 14.12.2018 12:50:33:173520220   phil2 take fork fork3
+Fri, 14.12.2018 12:50:33:173559940   phil2 start eating
+Fri, 14.12.2018 12:50:34:173542871   phil1 stop thinking
+Fri, 14.12.2018 12:50:34:173729816   semaphore fork1 acquired
+Fri, 14.12.2018 12:50:34:173854762   phil1 take fork fork1
+Fri, 14.12.2018 12:50:34:173977257   need to wait for semaphore fork2
+Fri, 14.12.2018 12:50:34:174102042   phil1 put fork fork1
+Fri, 14.12.2018 12:50:34:674392057   semaphore fork1 acquired
+Fri, 14.12.2018 12:50:34:674575754   phil1 take fork fork1
+Fri, 14.12.2018 12:50:34:674702154   need to wait for semaphore fork2
+Fri, 14.12.2018 12:50:34:674829863   phil1 put fork fork1
+Fri, 14.12.2018 12:50:35:173766418   phil2 stop eating
+Fri, 14.12.2018 12:50:35:174006919   phil2 put fork fork3
+Fri, 14.12.2018 12:50:35:174143724   phil2 put fork fork2
+Fri, 14.12.2018 12:50:35:174274115   phil2 start thinking
+Fri, 14.12.2018 12:50:35:174896018   need to wait for semaphore fork5
+Fri, 14.12.2018 12:50:35:175096913   semaphore fork1 acquired
+Fri, 14.12.2018 12:50:35:175254386   phil1 take fork fork1
+Fri, 14.12.2018 12:50:35:175381358   semaphore fork2 acquired
+Fri, 14.12.2018 12:50:35:175502438   phil1 take fork fork2
+Fri, 14.12.2018 12:50:35:175620691   phil1 start eating
+Fri, 14.12.2018 12:50:36:172260449   phil3 stop thinking
+Fri, 14.12.2018 12:50:36:172344889   semaphore fork3 acquired
+Fri, 14.12.2018 12:50:36:172395528   phil3 take fork fork3
+Fri, 14.12.2018 12:50:36:172445734   need to wait for semaphore fork4
+Fri, 14.12.2018 12:50:36:172495604   phil3 put fork fork3
+Fri, 14.12.2018 12:50:36:175857962   phil1 stop eating
+Fri, 14.12.2018 12:50:36:175938200   phil1 put fork fork2
+Fri, 14.12.2018 12:50:36:175988669   phil1 put fork fork1
+Fri, 14.12.2018 12:50:36:176043045   phil1 start thinking
+Fri, 14.12.2018 12:50:37:172452985   phil4 stop eating
+Fri, 14.12.2018 12:50:37:172525952   phil4 put fork fork5
+Fri, 14.12.2018 12:50:37:172564129   phil4 put fork fork4
+Fri, 14.12.2018 12:50:37:172595670   phil4 start thinking
+Fri, 14.12.2018 12:50:37:172670283   phil5 take fork fork5
+Fri, 14.12.2018 12:50:37:172722121   semaphore fork1 acquired
+Fri, 14.12.2018 12:50:37:172753247   phil5 take fork fork1
+Fri, 14.12.2018 12:50:37:172780194   phil5 start eating
+Fri, 14.12.2018 12:50:37:174520400   phil2 stop thinking
+Fri, 14.12.2018 12:50:37:174601812   semaphore fork2 acquired
+Fri, 14.12.2018 12:50:37:174646959   phil2 take fork fork2
+Fri, 14.12.2018 12:50:37:174689927   semaphore fork3 acquired
+Fri, 14.12.2018 12:50:37:174742623   phil2 take fork fork3
+Fri, 14.12.2018 12:50:37:174776911   phil2 start eating
+Fri, 14.12.2018 12:50:37:176282373   phil1 stop thinking
+Fri, 14.12.2018 12:50:37:176436352   need to wait for semaphore fork1
+Fri, 14.12.2018 12:50:37:672818608   need to wait for semaphore fork3
+Fri, 14.12.2018 12:50:39:174957959   phil2 stop eating
+Fri, 14.12.2018 12:50:39:175094302   phil2 put fork fork3
+Fri, 14.12.2018 12:50:39:175189858   phil2 put fork fork2
+Fri, 14.12.2018 12:50:39:175285079   phil2 start thinking
+Fri, 14.12.2018 12:50:39:175413323   phil3 take fork fork3
+Fri, 14.12.2018 12:50:39:175521082   semaphore fork4 acquired
+Fri, 14.12.2018 12:50:39:175613957   phil3 take fork fork4
+Fri, 14.12.2018 12:50:39:175694343   phil3 start eating
+Fri, 14.12.2018 12:50:41:172753287   phil4 stop thinking
+Fri, 14.12.2018 12:50:41:172857548   need to wait for semaphore fork4
+Fri, 14.12.2018 12:50:41:175454979   phil2 stop thinking
+Fri, 14.12.2018 12:50:41:175525238   semaphore fork2 acquired
+Fri, 14.12.2018 12:50:41:175577798   phil2 take fork fork2
+Fri, 14.12.2018 12:50:41:175630256   need to wait for semaphore fork3
+Fri, 14.12.2018 12:50:41:175680906   phil2 put fork fork2
+Fri, 14.12.2018 12:50:42:172901566   phil5 stop eating
+Fri, 14.12.2018 12:50:42:172974902   phil5 put fork fork1
+Fri, 14.12.2018 12:50:42:173014780   phil5 put fork fork5
+Fri, 14.12.2018 12:50:42:173050117   phil5 start thinking
+Fri, 14.12.2018 12:50:42:173112332   phil1 take fork fork1
+Fri, 14.12.2018 12:50:42:173178450   semaphore fork2 acquired
+Fri, 14.12.2018 12:50:42:173228926   phil1 take fork fork2
+Fri, 14.12.2018 12:50:42:173276153   phil1 start eating
+Fri, 14.12.2018 12:50:42:175848321   need to wait for semaphore fork2
+Fri, 14.12.2018 12:50:42:175955217   phil3 stop eating
+Fri, 14.12.2018 12:50:42:176013992   phil3 put fork fork4
+Fri, 14.12.2018 12:50:42:176064932   phil3 put fork fork3
+Fri, 14.12.2018 12:50:42:176101710   phil3 start thinking
+Fri, 14.12.2018 12:50:42:176152288   phil4 take fork fork4
+Fri, 14.12.2018 12:50:42:176190491   semaphore fork5 acquired
+Fri, 14.12.2018 12:50:42:176221967   phil4 take fork fork5
+Fri, 14.12.2018 12:50:42:176248414   phil4 start eating
+Fri, 14.12.2018 12:50:43:173483791   phil1 stop eating
+Fri, 14.12.2018 12:50:43:173626894   phil1 put fork fork2
+Fri, 14.12.2018 12:50:43:173785469   phil1 put fork fork1
+Fri, 14.12.2018 12:50:43:173882990   phil1 start thinking
+Fri, 14.12.2018 12:50:43:174011963   phil2 take fork fork2
+Fri, 14.12.2018 12:50:43:174122637   semaphore fork3 acquired
+Fri, 14.12.2018 12:50:43:174214452   phil2 take fork fork3
+Fri, 14.12.2018 12:50:43:174305401   phil2 start eating
+Fri, 14.12.2018 12:50:44:174121938   phil1 stop thinking
+Fri, 14.12.2018 12:50:44:174294576   semaphore fork1 acquired
+Fri, 14.12.2018 12:50:44:174405682   phil1 take fork fork1
+Fri, 14.12.2018 12:50:44:174495829   need to wait for semaphore fork2
+Fri, 14.12.2018 12:50:44:174581393   phil1 put fork fork1
+Fri, 14.12.2018 12:50:44:674833479   semaphore fork1 acquired
+Fri, 14.12.2018 12:50:44:674992530   phil1 take fork fork1
+Fri, 14.12.2018 12:50:44:675096494   need to wait for semaphore fork2
+Fri, 14.12.2018 12:50:44:675213078   phil1 put fork fork1
+Fri, 14.12.2018 12:50:45:174523754   phil2 stop eating
+Fri, 14.12.2018 12:50:45:174633038   phil2 put fork fork3
+Fri, 14.12.2018 12:50:45:174691693   phil2 put fork fork2
+Fri, 14.12.2018 12:50:45:174759737   phil2 start thinking
+Fri, 14.12.2018 12:50:45:175400466   semaphore fork1 acquired
+Fri, 14.12.2018 12:50:45:175463684   phil1 take fork fork1
+Fri, 14.12.2018 12:50:45:175518009   semaphore fork2 acquired
+Fri, 14.12.2018 12:50:45:175571821   phil1 take fork fork2
+Fri, 14.12.2018 12:50:45:175630733   phil1 start eating
+Fri, 14.12.2018 12:50:45:176242481   phil3 stop thinking
+Fri, 14.12.2018 12:50:45:176294350   semaphore fork3 acquired
+Fri, 14.12.2018 12:50:45:176336941   phil3 take fork fork3
+Fri, 14.12.2018 12:50:45:176389452   need to wait for semaphore fork4
+Fri, 14.12.2018 12:50:45:176443406   phil3 put fork fork3
+Fri, 14.12.2018 12:50:46:175891096   phil1 stop eating
+Fri, 14.12.2018 12:50:46:176108306   phil1 put fork fork2
+Fri, 14.12.2018 12:50:46:176277347   phil1 put fork fork1
+Fri, 14.12.2018 12:50:46:176414673   phil1 start thinking
+Fri, 14.12.2018 12:50:46:176631778   phil4 stop eating
+Fri, 14.12.2018 12:50:46:176858962   phil4 put fork fork5
+Fri, 14.12.2018 12:50:46:177015777   phil4 put fork fork4
+Fri, 14.12.2018 12:50:46:177159376   phil4 start thinking
+Fri, 14.12.2018 12:50:46:676625876   semaphore fork3 acquired
+Fri, 14.12.2018 12:50:46:676741056   phil3 take fork fork3
+Fri, 14.12.2018 12:50:46:676804147   semaphore fork4 acquired
+Fri, 14.12.2018 12:50:46:676871412   phil3 take fork fork4
+Fri, 14.12.2018 12:50:46:676934742   phil3 start eating
+Fri, 14.12.2018 12:50:47:173258625   phil5 stop thinking
+Fri, 14.12.2018 12:50:47:173457068   semaphore fork5 acquired
+Fri, 14.12.2018 12:50:47:173581753   phil5 take fork fork5
+Fri, 14.12.2018 12:50:47:173722875   semaphore fork1 acquired
+Fri, 14.12.2018 12:50:47:173855683   phil5 take fork fork1
+Fri, 14.12.2018 12:50:47:173997111   phil5 start eating
+Fri, 14.12.2018 12:50:47:174944740   phil2 stop thinking
+Fri, 14.12.2018 12:50:47:175099760   semaphore fork2 acquired
+Fri, 14.12.2018 12:50:47:175230192   phil2 take fork fork2
+Fri, 14.12.2018 12:50:47:175345571   need to wait for semaphore fork3
+Fri, 14.12.2018 12:50:47:175470929   phil2 put fork fork2
+Fri, 14.12.2018 12:50:47:176682697   phil1 stop thinking
+Fri, 14.12.2018 12:50:47:176851499   need to wait for semaphore fork1
+Fri, 14.12.2018 12:50:48:175757549   semaphore fork2 acquired
+Fri, 14.12.2018 12:50:48:175956839   phil2 take fork fork2
+Fri, 14.12.2018 12:50:48:176121582   need to wait for semaphore fork3
+Fri, 14.12.2018 12:50:48:176258306   phil2 put fork fork2
+Fri, 14.12.2018 12:50:49:176608526   semaphore fork2 acquired
+Fri, 14.12.2018 12:50:49:176877023   phil2 take fork fork2
+Fri, 14.12.2018 12:50:49:177020323   need to wait for semaphore fork3
+Fri, 14.12.2018 12:50:49:177137480   phil2 put fork fork2
+Fri, 14.12.2018 12:50:49:677148161   phil3 stop eating
+Fri, 14.12.2018 12:50:49:677343887   phil3 put fork fork4
+Fri, 14.12.2018 12:50:49:677470397   phil3 put fork fork3
+Fri, 14.12.2018 12:50:49:677613519   phil3 start thinking
+Fri, 14.12.2018 12:50:50:177409170   semaphore fork2 acquired
+Fri, 14.12.2018 12:50:50:177666844   phil2 take fork fork2
+Fri, 14.12.2018 12:50:50:177799692   semaphore fork3 acquired
+Fri, 14.12.2018 12:50:50:177945818   phil2 take fork fork3
+Fri, 14.12.2018 12:50:50:178096712   phil2 start eating
+Fri, 14.12.2018 12:50:50:178310122   phil4 stop thinking
+Fri, 14.12.2018 12:50:50:178490068   semaphore fork4 acquired
+Fri, 14.12.2018 12:50:50:178635372   phil4 take fork fork4
+Fri, 14.12.2018 12:50:50:178788642   need to wait for semaphore fork5
+Fri, 14.12.2018 12:50:50:178933249   phil4 put fork fork4
+Fri, 14.12.2018 12:50:52:174214767   phil5 stop eating
+Fri, 14.12.2018 12:50:52:174284298   phil5 put fork fork1
+Fri, 14.12.2018 12:50:52:174326562   phil5 put fork fork5
+Fri, 14.12.2018 12:50:52:174368626   phil5 start thinking
+Fri, 14.12.2018 12:50:52:174423396   phil1 take fork fork1
+Fri, 14.12.2018 12:50:52:174477179   need to wait for semaphore fork2
+Fri, 14.12.2018 12:50:52:174514662   phil1 put fork fork1
+Fri, 14.12.2018 12:50:52:178362231   phil2 stop eating
+Fri, 14.12.2018 12:50:52:178437967   phil2 put fork fork3
+Fri, 14.12.2018 12:50:52:178472852   phil2 put fork fork2
+Fri, 14.12.2018 12:50:52:178514382   phil2 start thinking
+Fri, 14.12.2018 12:50:52:179151479   semaphore fork4 acquired
+Fri, 14.12.2018 12:50:52:179221989   phil4 take fork fork4
+Fri, 14.12.2018 12:50:52:179289927   semaphore fork5 acquired
+Fri, 14.12.2018 12:50:52:179359280   phil4 take fork fork5
+Fri, 14.12.2018 12:50:52:179429262   phil4 start eating
+Fri, 14.12.2018 12:50:52:674721582   phil1 end live
+Fri, 14.12.2018 12:50:52:677868887   phil3 stop thinking
+Fri, 14.12.2018 12:50:52:678004691   semaphore fork3 acquired
+Fri, 14.12.2018 12:50:52:678128954   phil3 take fork fork3
+Fri, 14.12.2018 12:50:52:678234873   need to wait for semaphore fork4
+Fri, 14.12.2018 12:50:52:678343754   phil3 put fork fork3
+Fri, 14.12.2018 12:50:54:178527468   semaphore fork3 acquired
+Fri, 14.12.2018 12:50:54:178611222   phil3 take fork fork3
+Fri, 14.12.2018 12:50:54:178654987   need to wait for semaphore fork4
+Fri, 14.12.2018 12:50:54:178703123   phil3 put fork fork3
+Fri, 14.12.2018 12:50:54:178783368   phil2 stop thinking
+Fri, 14.12.2018 12:50:54:178851035   phil2 end live
+Fri, 14.12.2018 12:50:55:678893734   semaphore fork3 acquired
+Fri, 14.12.2018 12:50:55:679061854   phil3 take fork fork3
+Fri, 14.12.2018 12:50:55:679184949   need to wait for semaphore fork4
+Fri, 14.12.2018 12:50:55:679301472   phil3 put fork fork3
+Fri, 14.12.2018 12:50:56:179681053   phil4 stop eating
+Fri, 14.12.2018 12:50:56:179873947   phil4 put fork fork5
+Fri, 14.12.2018 12:50:56:179989829   phil4 put fork fork4
+Fri, 14.12.2018 12:50:56:180123314   phil4 start thinking
+Fri, 14.12.2018 12:50:57:174592884   phil5 stop thinking
+Fri, 14.12.2018 12:50:57:174775044   semaphore fork5 acquired
+Fri, 14.12.2018 12:50:57:174897897   phil5 take fork fork5
+Fri, 14.12.2018 12:50:57:175003630   semaphore fork1 acquired
+Fri, 14.12.2018 12:50:57:175113547   phil5 take fork fork1
+Fri, 14.12.2018 12:50:57:175225876   phil5 start eating
+Fri, 14.12.2018 12:50:57:179561230   semaphore fork3 acquired
+Fri, 14.12.2018 12:50:57:179685723   phil3 take fork fork3
+Fri, 14.12.2018 12:50:57:179758072   semaphore fork4 acquired
+Fri, 14.12.2018 12:50:57:179837349   phil3 take fork fork4
+Fri, 14.12.2018 12:50:57:179902091   phil3 start eating
+Fri, 14.12.2018 12:51:00:180090815   phil3 stop eating
+Fri, 14.12.2018 12:51:00:180183567   phil3 put fork fork4
+Fri, 14.12.2018 12:51:00:180238133   phil3 put fork fork3
+Fri, 14.12.2018 12:51:00:180300096   phil3 start thinking
+Fri, 14.12.2018 12:51:00:180384049   phil4 stop thinking
+Fri, 14.12.2018 12:51:00:180462184   semaphore fork4 acquired
+Fri, 14.12.2018 12:51:00:180515871   phil4 take fork fork4
+Fri, 14.12.2018 12:51:00:180567148   need to wait for semaphore fork5
+Fri, 14.12.2018 12:51:00:180617908   phil4 put fork fork4
+Fri, 14.12.2018 12:51:02:175424637   phil5 stop eating
+Fri, 14.12.2018 12:51:02:175487122   phil5 put fork fork1
+Fri, 14.12.2018 12:51:02:175514344   phil5 put fork fork5
+Fri, 14.12.2018 12:51:02:175550295   phil5 start thinking
+Fri, 14.12.2018 12:51:02:180770890   semaphore fork4 acquired
+Fri, 14.12.2018 12:51:02:180820056   phil4 take fork fork4
+Fri, 14.12.2018 12:51:02:180849678   semaphore fork5 acquired
+Fri, 14.12.2018 12:51:02:180881657   phil4 take fork fork5
+Fri, 14.12.2018 12:51:02:180911089   phil4 start eating
+Fri, 14.12.2018 12:51:03:180468058   phil3 stop thinking
+Fri, 14.12.2018 12:51:03:180562861   semaphore fork3 acquired
+Fri, 14.12.2018 12:51:03:180615720   phil3 take fork fork3
+Fri, 14.12.2018 12:51:03:180669808   need to wait for semaphore fork4
+Fri, 14.12.2018 12:51:03:180738888   phil3 put fork fork3
+Fri, 14.12.2018 12:51:04:680987776   phil3 end live
+Fri, 14.12.2018 12:51:06:181082971   phil4 stop eating
+Fri, 14.12.2018 12:51:06:181192952   phil4 put fork fork5
+Fri, 14.12.2018 12:51:06:181245620   phil4 put fork fork4
+Fri, 14.12.2018 12:51:06:181299765   phil4 start thinking
+Fri, 14.12.2018 12:51:07:175837984   phil5 stop thinking
+Fri, 14.12.2018 12:51:07:176033036   semaphore fork5 acquired
+Fri, 14.12.2018 12:51:07:176169307   phil5 take fork fork5
+Fri, 14.12.2018 12:51:07:176269914   semaphore fork1 acquired
+Fri, 14.12.2018 12:51:07:176374019   phil5 take fork fork1
+Fri, 14.12.2018 12:51:07:176469435   phil5 start eating
+Fri, 14.12.2018 12:51:10:181521321   phil4 stop thinking
+Fri, 14.12.2018 12:51:10:181722447   semaphore fork4 acquired
+Fri, 14.12.2018 12:51:10:181852297   phil4 take fork fork4
+Fri, 14.12.2018 12:51:10:181999104   need to wait for semaphore fork5
+Fri, 14.12.2018 12:51:10:182133798   phil4 put fork fork4
+Fri, 14.12.2018 12:51:12:176792596   phil5 stop eating
+Fri, 14.12.2018 12:51:12:177015137   phil5 put fork fork1
+Fri, 14.12.2018 12:51:12:177149906   phil5 put fork fork5
+Fri, 14.12.2018 12:51:12:177291218   phil5 start thinking
+Fri, 14.12.2018 12:51:12:182345742   semaphore fork4 acquired
+Fri, 14.12.2018 12:51:12:182441225   phil4 take fork fork4
+Fri, 14.12.2018 12:51:12:182517440   semaphore fork5 acquired
+Fri, 14.12.2018 12:51:12:182588040   phil4 take fork fork5
+Fri, 14.12.2018 12:51:12:182659404   phil4 start eating
+Fri, 14.12.2018 12:51:16:182842404   phil4 stop eating
+Fri, 14.12.2018 12:51:16:182906785   phil4 put fork fork5
+Fri, 14.12.2018 12:51:16:182936721   phil4 put fork fork4
+Fri, 14.12.2018 12:51:16:182965282   phil4 start thinking
+Fri, 14.12.2018 12:51:17:177564271   phil5 stop thinking
+Fri, 14.12.2018 12:51:17:177763301   semaphore fork5 acquired
+Fri, 14.12.2018 12:51:17:177891576   phil5 take fork fork5
+Fri, 14.12.2018 12:51:17:178038459   semaphore fork1 acquired
+Fri, 14.12.2018 12:51:17:178173113   phil5 take fork fork1
+Fri, 14.12.2018 12:51:17:178303514   phil5 start eating
+Fri, 14.12.2018 12:51:20:183247852   phil4 stop thinking
+Fri, 14.12.2018 12:51:20:183470698   semaphore fork4 acquired
+Fri, 14.12.2018 12:51:20:183577691   phil4 take fork fork4
+Fri, 14.12.2018 12:51:20:183693344   need to wait for semaphore fork5
+Fri, 14.12.2018 12:51:20:183800662   phil4 put fork fork4
+Fri, 14.12.2018 12:51:22:178565461   phil5 stop eating
+Fri, 14.12.2018 12:51:22:178731283   phil5 put fork fork1
+Fri, 14.12.2018 12:51:22:178835845   phil5 put fork fork5
+Fri, 14.12.2018 12:51:22:178960103   phil5 start thinking
+Fri, 14.12.2018 12:51:22:184027030   semaphore fork4 acquired
+Fri, 14.12.2018 12:51:22:184160635   phil4 take fork fork4
+Fri, 14.12.2018 12:51:22:184255637   semaphore fork5 acquired
+Fri, 14.12.2018 12:51:22:184381211   phil4 take fork fork5
+Fri, 14.12.2018 12:51:22:184516570   phil4 start eating
+Fri, 14.12.2018 12:51:26:184833944   phil4 stop eating
+Fri, 14.12.2018 12:51:26:185032718   phil4 put fork fork5
+Fri, 14.12.2018 12:51:26:185161540   phil4 put fork fork4
+Fri, 14.12.2018 12:51:26:185310303   phil4 start thinking
+Fri, 14.12.2018 12:51:27:179228756   phil5 stop thinking
+Fri, 14.12.2018 12:51:27:179430764   semaphore fork5 acquired
+Fri, 14.12.2018 12:51:27:179560163   phil5 take fork fork5
+Fri, 14.12.2018 12:51:27:179702378   semaphore fork1 acquired
+Fri, 14.12.2018 12:51:27:179835963   phil5 take fork fork1
+Fri, 14.12.2018 12:51:27:179976062   phil5 start eating
+Fri, 14.12.2018 12:51:30:185553939   phil4 stop thinking
+Fri, 14.12.2018 12:51:30:185667579   phil4 end live
+Fri, 14.12.2018 12:51:32:180359230   phil5 stop eating
+Fri, 14.12.2018 12:51:32:180549018   phil5 put fork fork1
+Fri, 14.12.2018 12:51:32:180668850   phil5 put fork fork5
+Fri, 14.12.2018 12:51:32:180845166   phil5 start thinking
+Fri, 14.12.2018 12:51:37:181138626   phil5 stop thinking
+Fri, 14.12.2018 12:51:37:181332160   semaphore fork5 acquired
+Fri, 14.12.2018 12:51:37:181460070   phil5 take fork fork5
+Fri, 14.12.2018 12:51:37:181602079   semaphore fork1 acquired
+Fri, 14.12.2018 12:51:37:181736226   phil5 take fork fork1
+Fri, 14.12.2018 12:51:37:181892275   phil5 start eating
+Fri, 14.12.2018 12:51:42:182175286   phil5 stop eating
+Fri, 14.12.2018 12:51:42:182303878   phil5 put fork fork1
+Fri, 14.12.2018 12:51:42:182363977   phil5 put fork fork5
+Fri, 14.12.2018 12:51:42:182433322   phil5 start thinking
+Fri, 14.12.2018 12:51:47:182650645   phil5 stop thinking
+Fri, 14.12.2018 12:51:47:182886356   semaphore fork5 acquired
+Fri, 14.12.2018 12:51:47:183025977   phil5 take fork fork5
+Fri, 14.12.2018 12:51:47:183158591   semaphore fork1 acquired
+Fri, 14.12.2018 12:51:47:183299512   phil5 take fork fork1
+Fri, 14.12.2018 12:51:47:183428122   phil5 start eating
+Fri, 14.12.2018 12:51:52:183685596   phil5 stop eating
+Fri, 14.12.2018 12:51:52:183838451   phil5 put fork fork1
+Fri, 14.12.2018 12:51:52:183932878   phil5 put fork fork5
+Fri, 14.12.2018 12:51:52:184045343   phil5 start thinking
+Fri, 14.12.2018 12:51:57:184259490   phil5 stop thinking
+Fri, 14.12.2018 12:51:57:184448600   phil5 end live
